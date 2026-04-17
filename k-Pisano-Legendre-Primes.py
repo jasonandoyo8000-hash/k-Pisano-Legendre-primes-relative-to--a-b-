@@ -1,5 +1,7 @@
 # k-Pisano-Legendre-primes-relative-to-(a,b)
 # See https://doi.org/10.62072/acm.2026.09011
+# See https://oeis.org/A394870
+
 from sympy import legendre_symbol, primerange
 
 def check(p,in1,in2,k):
